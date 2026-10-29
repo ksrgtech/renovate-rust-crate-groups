@@ -1,0 +1,17 @@
+{
+  "packageRules": [
+    {
+      "matchManagers": ["cargo"],
+      "matchPackageNames": [
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "thiserror-impl"
+      ],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "dtolnay-rapid-train",
+      "schedule": ["* * * * 1"]
+    }
+  ]
+}
